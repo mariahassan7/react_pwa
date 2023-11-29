@@ -1,25 +1,34 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Educative PWA",
+  "name": "Educative PWA",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
+      "src": "logo_react.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
+  "description" : "Welcome to a simple progressive web app made using ReactJS",
+  "screenshots": [
+    {
+     "src": "educative_progressive.png",
+      "sizes": "768x483",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Educative Progressive Web App"
+    },
+    {
+      "src": "educative_mobile.png",
+       "sizes": "500x320",
+       "type": "image/png",
+       "form_factor": "narrow",
+       "label": "Educative Progressive Web App"
+     }
+  ],
   "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "id" : "/",
+  "display_override" : ["standalone", "fullscreen"],
+  "display": "minimal-ui",
+  "theme_color": "#e6e6fa",
+  "background_color": "#ff97c0"
 }
